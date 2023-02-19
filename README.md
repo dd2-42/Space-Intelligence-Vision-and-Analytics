@@ -76,6 +76,7 @@ pose estimation challenge: Dataset, competition design, and results,” IEEE Tra
 [10] A. Bewley, Z. Ge, L. Ott, F. Ramos, and B. Upcroft, “Simple online and realtime tracking,” in 2016 IEEE international conference on image processing (ICIP). IEEE,2016, pp. 3464–3468.  
 [11] N. Wojke, A. Bewley, and D. Paulus, “Simple online and realtime tracking with a deep association metric,” in 2017 IEEE international conference on image processing (ICIP). IEEE, 2017, pp. 3645–3649.  
 [12] [SR3 github][SR3_github]
+[13] [Mask R-CNN][mask_rcnn]
 
 
 [yolov7_github]: https://github.com/WongKinYiu/yolov7
