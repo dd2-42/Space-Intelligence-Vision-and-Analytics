@@ -4,9 +4,8 @@ This project is a demonstration of futuristic space technological capability tha
 pose estimation of satellites in space in a single computer vision pipeline.
 
 <div align="center">
-        <img src="data/siva_cv_pipeline.png" width="70%" title="SIVA: CV Pipeline"/>
+        <img src="https://github.com/dd2-42/Space-Intelligence-Vision-and-Analytics/blob/main/data/siva_cv_pipeline.png" width="70%" title="SIVA: CV Pipeline"/>
 </div>
-
 The algorithms used are [Yolov7][yolov7_github], [DeepSORT][deepsort_github] and other image and video pre-processing using classical as well as deep learning based techinques.
 
 ## Detections
