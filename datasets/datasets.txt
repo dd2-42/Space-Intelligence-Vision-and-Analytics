@@ -1,0 +1,3 @@
+Dataset 0:
+----------
+1. A Spacecraft Dataset for Detection, Segmentation and Parts Recognition, Hoang Anh Dung, Bo Chen, and Tat-Jun Chin, The University of Adelaide, June 16, 2021
