@@ -4,9 +4,7 @@ This project is a demonstration of futuristic space technological capability tha
 pose estimation of satellites in space in a single computer vision pipeline.
 
 <div align="center">
-    <a href="./">
-        <img src="./data/siva_cv_pipeline.png" width="70%"/>
-    </a>
+        <img src="./data/siva_cv_pipeline.png" width="70%" title="SIVA: CV Pipeline"/>
 </div>
 
 The algorithms used are [Yolov7][yolov7_github], [DeepSORT][deepsort_github] and other image and video pre-processing using classical as well as deep learning based techinques.
@@ -17,7 +15,7 @@ The detection pipeline inferences with [Yolov7][yolov7_github]:
 
 <div align="center">
     <a href="./">
-        <img src="./data/siva_yolov7_0.jpg" width="70%"/>
+        <img src="./data/siva_yolov7_0.jpg" width="70%" title="SROs detection with Yolov7"/>
     </a>
 </div>
 
