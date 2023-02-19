@@ -11,7 +11,7 @@ pose estimation of satellites in space in a single computer vision pipeline.
 
 The algorithms used are [Yolov7][yolov7_github], [DeepSORT][deepsort_github] and other image and video pre-processing using classical as well as deep learning based techinques.
 
-## Detections
+## SROs Detections
 
 The detection pipeline inferences with [Yolov7][yolov7_github]:
 
@@ -21,16 +21,45 @@ The detection pipeline inferences with [Yolov7][yolov7_github]:
     </a>
 </div>
 
-[yolov7_github]: https://github.com/WongKinYiu/yolov7
-[deepsort_github]: https://github.com/nwojke/deep_sort
-[mask_rcnn]: https://github.com/matterport/Mask_RCNN
-[SR3]: https://iterative-refinement.github.io/
+## SRO's body, antenna and solar panel Segmentation
+
+### Part's Segmentation
+<div align="center">
+    <a href="./">
+        <img src="./data/siva_mrcnn_0.png" width="70%"/>
+    </a>
+</div>
+
+### Mask R-CNN Inferences
+<div align="center">
+    <a href="./">
+        <img src="./data/siva_mrcnn_1.png" width="70%"/>
+    </a>
+</div>
+
+<div align="center">
+    <a href="./">
+        <img src="./data/siva_mrcnn_2.png" width="70%"/>
+    </a>
+</div>
+
+### Inferencing on Jetson Nano (2GB model) with real satellite mini-model
+<div align="center">
+    <a href="./">
+        <img src="./data/siva_mrcnn_3.png" width="70%"/>
+    </a>
+</div>
+
+## Super Resolved via [SR3][SR3]
+<div align="center">
+    <a href="./">
+        <img src="./data/siva_sr_0.png" width="70%"/>
+    </a>
+</div>
+
 
 ## TO DO
 1. Tracking with [DeepSORT][deepsort_github]
-2. Segmentation with [MaskRCNN][mask_rcnn]
-3. Super resolution with [Super Resolution with Image superresolution via iterative refinement][SR3]
-
 
 ## References
 
@@ -46,3 +75,11 @@ pose estimation challenge: Dataset, competition design, and results,” IEEE Tra
 [9] K. He, G. Gkioxari, P. Dollár, and R. Girshick, “Mask r-cnn,” in Proceedings of the IEEE international conference on computer vision, 2017, pp. 2961–2969.  
 [10] A. Bewley, Z. Ge, L. Ott, F. Ramos, and B. Upcroft, “Simple online and realtime tracking,” in 2016 IEEE international conference on image processing (ICIP). IEEE,2016, pp. 3464–3468.  
 [11] N. Wojke, A. Bewley, and D. Paulus, “Simple online and realtime tracking with a deep association metric,” in 2017 IEEE international conference on image processing (ICIP). IEEE, 2017, pp. 3645–3649.  
+[12] [SR3 github][SR3_github]
+
+
+[yolov7_github]: https://github.com/WongKinYiu/yolov7
+[deepsort_github]: https://github.com/nwojke/deep_sort
+[mask_rcnn]: https://github.com/matterport/Mask_RCNN
+[SR3]: https://iterative-refinement.github.io/
+[SR3_github]: https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement
